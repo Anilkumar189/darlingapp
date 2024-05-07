@@ -6,4 +6,4 @@ function Prabhas(){
         </div>
     )
 }
-export default Prabhas
+export default Prabhas                      
