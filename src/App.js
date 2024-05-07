@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { Link, Outlet } from 'react-router-dom';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <h1 className='border border-2 border-success m-2 p-2'>App</h1>
+       <ul>
+        <li>
+          <Link to="/kajal">kazal darling</Link>
+          </li>
+          <li>
+        <Link to='/prabhas'>prabhas darling</Link>
+          </li>
+          <li>
+            <Link to="/countries">countries</Link>
+          </li>
+
+       </ul>
+       <Outlet></Outlet>
     </div>
   );
 }
