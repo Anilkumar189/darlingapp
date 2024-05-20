@@ -12,7 +12,7 @@ function App() {
         <Link to='/prabhas'>prabhas darling</Link>
           </li>
           <li>
-            <Link to="/countries">countries</Link>
+            <Link to="/counteries">countries</Link>
           </li>
 
        </ul>
