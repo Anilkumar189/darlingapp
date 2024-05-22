@@ -14,6 +14,7 @@ function CountryDetails(){
          <h2>CountryDetails{JSON.stringify(details?.name?.common)}</h2> 
           <h2>CountryDetails{JSON.stringify(details?.capital[0])}</h2> 
          <img src={details?.flags[1]} alt=""width="500px"/>
+         <h1>anill</h1>
 
       </div>
 }
